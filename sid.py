@@ -8,6 +8,6 @@ def digit_sum(n):
 
 def lucky_number(n):
     """한 자리 수가 될 때까지 각 자리 숫자를 더한다."""
-    while n >= 10:
+    while n > 10:
         n = digit_sum(n)
     return n
